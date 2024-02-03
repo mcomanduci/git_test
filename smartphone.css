@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap");
+
+@media screen and (max-width: 600px) {
+  * {
+    line-height: normal;
+  }
+
+  body {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .container {
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .container-imagem {
+    margin: 0;
+  }
+
+  .imagem-omelette {
+    border-radius: 0;
+  }
+
+  .title h1 {
+    font-size: 30px;
+    padding: 0 20px;
+  }
+
+  .title p {
+    padding: 0 20px;
+  }
+
+  .preparation-container {
+    border-radius: 0px;
+  }
+
+  .ingredients-container {
+    padding: 0 20px;
+  }
+
+  .ingredients-container h2 {
+    font-size: 25px;
+  }
+
+  .instructions-container {
+    padding: 0 20px;
+  }
+  
+  .instructions-container h2 {
+    font-size: 25px;
+  }
+      
+  .nutrition-container {
+    padding: 0 20px;
+  }
+
+  .nutrition-container h2 {
+    font-size: 25px;
+  }
+
+  .table .right {
+    padding-left: 60%;
+  }
+
+
+}
